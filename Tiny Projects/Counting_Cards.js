@@ -1,10 +1,8 @@
-let count = 0;
+let cardcount = 0;
 
 function cc(card) {
-  //if (Bet > 0 || Hold > 1)
-
-
-  return "Change Me";
+  if (cardcount > 0) return cardcount + " Bet";
+  return cardcount + " Hold";
   
 }
 
