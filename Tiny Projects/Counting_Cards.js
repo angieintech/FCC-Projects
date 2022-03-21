@@ -1,10 +1,13 @@
-let cardcount = 0;
+let count = 0;
 
 function cc(card) {
-  if (cardcount > 0) return cardcount + " Bet";
-    return cardcount + " Hold";
+ 
+  if (card > 1 && card > 7) {
+    count++;
+  } else if (card === 10 || card === 'JQKA')
+    count--;
+  if (count > 0) return count + " Bet";
+    return count + " Hold";
   
 }
-
-cc(2); cc(3); cc(7); cc('K'); cc('A');
 
