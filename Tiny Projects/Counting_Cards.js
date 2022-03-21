@@ -2,7 +2,7 @@ let cardcount = 0;
 
 function cc(card) {
   if (cardcount > 0) return cardcount + " Bet";
-  return cardcount + " Hold";
+    return cardcount + " Hold";
   
 }
 
