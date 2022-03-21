@@ -2,7 +2,7 @@ let count = 0;
 
 function cc(card) {
   var otherCards = ['J','Q','K','A'];
-  if (card > 1 && card < 7) {
+  if (card > -1 && card < 8) {
     count++;
   } else if (card === 10 || otherCards) {
     count--;
