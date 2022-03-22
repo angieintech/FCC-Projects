@@ -5,4 +5,5 @@ The following projects that I have worked on FreeCodeCamp thus far:
 1. Factorialize a Number
 2. Palindrome Checker
 3. Counting Cards
+4. Dog Objects
 
