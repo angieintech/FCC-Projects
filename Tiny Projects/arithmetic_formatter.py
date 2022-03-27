@@ -1,5 +1,3 @@
-num = input("please enter a number: ")
-
 def arithmetic_arranger(problems):
   lineOne = ""
   lineTwo = ""
@@ -10,6 +8,8 @@ def arithmetic_arranger(problems):
   
   if len(problems) > 5:
     return "Error: Too many problems."
-  for i in problems:
+  for problem in problems:
     firstNum, secondNum, operator = problems.split() 
     
+  arranged_problems = ""
+  return arranged_problems
