@@ -3,12 +3,10 @@ def arithmetic_arranger(problems):
   lineTwo = ""
   lineThree = ""
   lineFour = ""
-
-  problems = []
   
   if len(problems) > 5:
     return "Error: Too many problems."
-  for problem in problems:
+  for j, problem in enumerate(problems):
     firstNum, secondNum, operator = problems.split() 
     
   arranged_problems = ""
