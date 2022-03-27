@@ -13,5 +13,8 @@ def arithmetic_arranger(problems):
     if operator not in "+" or "-":
       return "Error: Operator must be '+' or '-'."
     
+    if not firstNum.isdigit() or not secondNum.isdigit():
+      return "Error: Numbers must only contain digits."
+    
   arranged_problems = ""
   return arranged_problems
