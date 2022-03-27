@@ -7,7 +7,7 @@ def arithmetic_arranger(problems):
   if len(problems) > 5:
     return "Error: Too many problems."
   for j, problem in enumerate(problems):
-    firstNum, secondNum, operator = problems.split() 
+    firstNum, secondNum, operator = problem.split() 
     
   arranged_problems = ""
   return arranged_problems
