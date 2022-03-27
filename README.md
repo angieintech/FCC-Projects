@@ -7,4 +7,5 @@ The following projects that I have worked on FreeCodeCamp thus far:
 3. Counting Cards
 4. Dog Objects
 5. myObj accessing object properties w/dot notation
+6. Arithmetic Formatter
 
