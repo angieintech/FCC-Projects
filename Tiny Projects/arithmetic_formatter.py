@@ -16,5 +16,8 @@ def arithmetic_arranger(problems):
     if not firstNum.isdigit() or not secondNum.isdigit():
       return "Error: Numbers must only contain digits."
     
+    while not len(firstNum) > 5 or len(secondNum) > 5:
+        return "Error: Numbers cannot be more than four digits."
+    
   arranged_problems = ""
   return arranged_problems
