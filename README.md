@@ -1,7 +1,7 @@
 # FCC-Projects
 The following projects that I have worked on FreeCodeCamp thus far:
 
--Tiny coding project(s): 
+<h2>Tiny coding project(s):</h2> 
 1. Factorialize a Number
 2. Palindrome Checker
 3. Counting Cards
@@ -11,4 +11,5 @@ The following projects that I have worked on FreeCodeCamp thus far:
 7. ourDog updating objects
 8. myDog new properties
 9. Del myDog properties
+10. Phonetic lookup JS object
 
