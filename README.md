@@ -9,4 +9,5 @@ The following projects that I have worked on FreeCodeCamp thus far:
 5. myObj accessing object properties w/dot notation
 6. Arithmetic Formatter
 7. ourDog updating objects
+8. myDog new properties
 
