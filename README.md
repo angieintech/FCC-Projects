@@ -10,4 +10,5 @@ The following projects that I have worked on FreeCodeCamp thus far:
 6. Arithmetic Formatter
 7. ourDog updating objects
 8. myDog new properties
+9. Del myDog properties
 
