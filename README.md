@@ -1,7 +1,7 @@
 # FCC-Projects
 The following projects that I have worked on FreeCodeCamp thus far:
 
-<h2>Tiny coding project(s):</h2> 
+-Tiny coding project(s):
 1. Factorialize a Number
 2. Palindrome Checker
 3. Counting Cards
