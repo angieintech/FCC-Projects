@@ -1,6 +1,6 @@
 # FCC Tiny JavaScript and Python Projects
 
-The following projects that I have worked on FreeCodeCamp thus far:
+The following projects that I have worked on FreeCodeCamp (FCC) thus far:
 
 1. Factorialize a Number
 2. Palindrome Checker
