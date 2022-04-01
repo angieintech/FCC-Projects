@@ -18,12 +18,9 @@ def arithmetic_arranger(problems):
     
     while not len(firstNum) > 4 or len(secondNum) > 4:
         return "Error: Numbers cannot be more than four digits."
-      
-    while operator == "+":
-      answer = int(firstNum) + int(secondNum)
-      
-      if operator == "-":
-        answer = int(firstNum) - int(secondNum)
+   
+  # Created an if/else in one line :)
+    answer = int(firstNum) + int(secondNum) if operator == "+" else int(firstNum) - int(secondNum)
     
   arranged_problems = ""
   return arranged_problems
