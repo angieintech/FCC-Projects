@@ -1,4 +1,4 @@
-# FCC Tiny Projects
+# FCC Tiny JavaScript and Python Projects
 
 The following projects that I have worked on FreeCodeCamp thus far:
 
