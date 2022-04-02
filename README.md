@@ -12,5 +12,5 @@ These are the following projects that I have worked on FreeCodeCamp (FCC):
 8. myDog new properties
 9. Del myDog properties
 10. Phonetic lookup JS object
-11. Our Music 
+11. Our Music manipulating complex objects
 
