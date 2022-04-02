@@ -10,7 +10,16 @@ const myMusic = [
     ],
     "gold": true
   }
+  ,
+{
+    "artist": "BTS",
+    "title": "Wings",
+    "release_year": 2016,
+    "formats": [
+      "CD",
+      "Mp3"
+    ],
+    "gold": true
+  }
   
- // Add another music album to myMusic array.  
-
-];
+];  // Added another music album to myMusic array.  
