@@ -13,7 +13,7 @@ function convertToRoman(num) {
             "I"
             ]
   
-  roman_numeral = "";
+  var roman_numeral = "";
 }
 
 convertToRoman(36);
