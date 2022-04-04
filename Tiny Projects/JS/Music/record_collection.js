@@ -21,3 +21,5 @@ const recordCollection = {
 function updateRecords(records, id, prop, value) {
   return records;
 }
+
+updateRecords(recordCollection, 5439, 'artist', 'ABBA');
