@@ -19,6 +19,7 @@ const recordCollection = {
 };
 
 function updateRecords(records, id, prop, value) {
+  /* if props != tracks && value != "" :  */
   return records;
 }
 
