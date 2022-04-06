@@ -22,5 +22,7 @@ def arithmetic_arranger(problems):
   # Created an if/else in one line :)
     answer = int(firstNum) + int(secondNum) if operator == "+" else int(firstNum) - int(secondNum)
     
+   # length_no = len(max([firstNum,secondNum],key = len))
+    
   arranged_problems = ""
   return arranged_problems
