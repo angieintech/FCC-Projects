@@ -22,7 +22,7 @@ function updateRecords(records, id, prop, value) {
   if (value === "") {
     delete records[id][prop];
   } else if (prop === 'tracks') {
-    records[id][prop] = records[id][prop] || [] || records[id][prop]; 
+    records[id][prop] = records[id][prop] || [] || records[id]; 
     records[id][prop].push(value);
   } else {
     records[id][prop] = value;
