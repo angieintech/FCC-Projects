@@ -26,7 +26,9 @@ const contacts = [
 ];
 
 function lookUpProfile(name, prop) {
-  let contact = contacts.filter(conTact => conTact.firstName === name);
-  return contact ? contact.hasOwnProperty(prop)? contact[prop] : "No such property": "No such contact";
-}
+   let contact = contacts.filter(cont => cont.firstName === name);
+   return contact.length ? (contact[0][prop] ? contact[0][prop] : "No such property") : "No such contact"; 
+  /*if the names or properies are not within the contact array, 
+  then it will output "No such property" or "No such contact".*/
+} 
 lookUpProfile("Akira", "likes"); //calls the function, lookUpProfile
