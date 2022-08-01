@@ -4,5 +4,5 @@ that's greater than or equal to myMin,
 and is less than or equal to myMax, inclusive. */
 
 function randomRange(myMin, myMax) {
-  return 0;
+  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
 }
