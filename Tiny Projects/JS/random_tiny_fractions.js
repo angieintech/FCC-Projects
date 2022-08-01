@@ -1,4 +1,5 @@
 // Change randomFraction to return a random number instead of returning 0.
 function randomFraction() {
-  return 0;
+  
+  return Math.random(); //use Math.random() to return a random number instead of 0.
 }
