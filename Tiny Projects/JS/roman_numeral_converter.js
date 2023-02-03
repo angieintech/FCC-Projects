@@ -16,10 +16,10 @@ function convertToRoman(num) {
   let roman_numeral = "";
 }
 
-  let i = 0;
-
   while (num > 0) {
-    //for loop to go thru a list of numbers. Then the integers will convert to a roman numeral using +=,-=, and ++
+    for (var i = 0; i < i.length; i++) {
+      // Then convert arabic numerals to roman numerals using += and -
+    }
   }
 
 
